@@ -1,15 +1,15 @@
 import React from 'react';
 import './NavigationBar.css'; // Assuming you have a separate CSS file for additional styling
-
+import Logo from '../photos/logo.jpg'
 
 function NavigationBar() {
   return (
     <nav>
-        <div className="left">
-            <img src="" alt="LOGO" />
-            <h2 className="brand_name"></h2>
+        <div className="left" id="parts">
+            <img src={Logo} alt="LOGO" className='logo'/>
+            <h2 className="brand_name">ECO QUEST</h2>
         </div>
-        <div className="middle">
+        <div className="middle" id="parts">
             <ul>
             <a href=""><li>Home</li></a>
             <a href=""><li>Destinations</li></a>
@@ -17,10 +17,10 @@ function NavigationBar() {
             <a href=""><li>About Us</li></a>
             </ul>
         </div>
-        <div className="right">
+        <div className="right" id="parts">
             <ul>
-            <a href=""><li>Sign Up</li></a>
-            <a href=""><li>Log In</li></a>
+            <a href=""><li className='sign'>Sign Up</li></a>
+            <a href=""><li className='log'>Log In</li></a>
             </ul>
         </div>
     </nav>
