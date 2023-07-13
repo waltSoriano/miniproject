@@ -7,14 +7,15 @@ function NavigationBar() {
     <nav>
         <div className="left" id="parts">
             <img src={Logo} alt="LOGO" className='logo'/>
-            <h2 className="brand_name">ECO QUEST</h2>
+            <h2 className="brand_name">ENVIRO QUEST</h2>
         </div>
         <div className="middle" id="parts">
             <ul>
-            <a href=""><li>Home</li></a>
-            <a href=""><li>Destinations</li></a>
-            <a href=""><li>Community</li></a>
-            <a href=""><li>About Us</li></a>
+              <li><a href="">Home</a></li>
+              <li><a href="">Destinations</a></li>
+              <li><a href="">Community</a></li>
+              <li><a href="">About Us</a></li>
+            
             </ul>
         </div>
         <div className="right" id="parts">
