@@ -1,22 +1,15 @@
+
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-.background {
-    position: relative;
-    background-image: url(../src/assets/palawan.jpg);
+.background{
+    background-image: url(../src/assets/background1.png);
     background-size: cover;
     background-position: center;
-  }
-  
-  .background::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6) 20%, rgba(0, 0, 0, 0));
-  }
+}
+

@@ -1,0 +1,17 @@
+.container{
+    display:flex;
+}
+#equalpart{
+    flex:1;
+}
+.firstcolumn{
+    padding-left:160px;
+}
+h1{
+    font-size: 90px;
+    color:white;
+}
+.p1{
+    font-size: 14px;
+    color:white;
+}
