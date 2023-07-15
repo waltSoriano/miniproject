@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className='navbar'>
         <section className="section">
             <img src="" alt="LOGO" />
-            <h3>ENVIRO QUEST</h3>
+            <a href=""> <h3>ENVIRO QUEST</h3></a>
             <p><a href="">Home</a></p>
             <p><a href="">Destinations</a></p>
             <p><a href="">Community</a></p>

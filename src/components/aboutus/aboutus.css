@@ -1,0 +1,12 @@
+.about-container{
+    display:flex;
+    background-color: #0AAC9E;
+    padding-left:160px;
+    padding-right:160px;
+}
+.boxes{
+    flex:1;
+}
+.first-paragraph, .second-paragraph{
+    color:white;
+}

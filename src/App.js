@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Navbar, Home} from './2ndex';
+import {Navbar, Home, Aboutus} from './2ndex';
 import './fonts.css'
 const App = () => {
   return (
@@ -8,7 +8,9 @@ const App = () => {
       <div className="background">
         <Navbar/>
         <Home/>
+        
         </div>
+        <Aboutus/>
       </div>
 
       

@@ -8,7 +8,7 @@
 }
 
 .background{
-    background-image: url(../src/assets/background1.png);
+    background-image: url(./components/assets/background1.png);
     background-size: cover;
     background-position: center;
 }
