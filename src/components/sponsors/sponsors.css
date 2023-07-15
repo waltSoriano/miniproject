@@ -1,0 +1,21 @@
+
+
+.item{
+    min-height:40rem;
+    min-width: 33%;
+    padding:40px;
+}
+.item img{
+    width:100%;
+    height: auto;
+    max-width:400px;
+}
+
+.inner-carousel{
+    display:flex;
+    background-color: aqua;
+}
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+}

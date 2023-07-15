@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Navbar, Home, Aboutus} from './2ndex';
+import {Navbar, Home, Aboutus, Sponsors} from './2ndex';
 import './fonts.css'
 const App = () => {
   return (
@@ -10,6 +10,8 @@ const App = () => {
         <Home/>
         
         </div>
+        <Aboutus/>
+        <Sponsors/>
         <Aboutus/>
       </div>
 

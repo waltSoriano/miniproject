@@ -1,12 +1,33 @@
 .about-container{
     display:flex;
-    background-color: #0AAC9E;
+    background: radial-gradient(circle at 76% 44%, rgba(27, 180, 152, 1) 0%, rgba(168, 255, 152, 1) 100%);
+    padding-top:30px;
+    padding-bottom:30px;
     padding-left:160px;
     padding-right:160px;
+    align-items: center;
+    justify-content: center;
+    
 }
 .boxes{
     flex:1;
 }
 .first-paragraph, .second-paragraph{
     color:white;
+    text-indent:40px;
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.left-part{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.left-part img{
+    width:400px;
+    padding-bottom:10px;
 }
