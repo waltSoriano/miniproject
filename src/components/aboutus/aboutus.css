@@ -1,6 +1,9 @@
 .about-container{
     display:flex;
-    background: radial-gradient(circle at 76% 44%, rgba(27, 180, 152, 1) 0%, rgba(168, 255, 152, 1) 100%);
+    background: url(../assets/bg2.png);
+    backface-visibility: 10%;
+    background-size:cover;
+    background-position: bottom;
     padding-top:30px;
     padding-bottom:30px;
     padding-left:160px;
@@ -9,17 +12,19 @@
     justify-content: center;
     
 }
+#blur-background{
+    backdrop-filter: blur(20px);
+}
 .boxes{
     flex:1;
 }
 .first-paragraph, .second-paragraph{
-    color:white;
+    color:rgb(0, 52, 28);
     text-indent:40px;
     text-align: justify;
     padding-left: 1rem;
     padding-right: 1rem;
     line-height: 1.5;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 .left-part{
     display:flex;

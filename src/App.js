@@ -12,7 +12,7 @@ const App = () => {
         </div>
         <Aboutus/>
         <Sponsors/>
-        <Aboutus/>
+        
       </div>
 
       
